@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Marvel' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Work+Sans:300,100,200,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bowlby+One' rel='stylesheet' type='text/css'>
 <!-- 	<link rel="stylesheet" media="(max-width: 640px)" href="./styles/max-640px.css">
 	<link rel="stylesheet" media="(max-width: 640px)" href="./styles/min-640px.css"> -->
 	<link rel="stylesheet" href="./styles/style.css">
@@ -12,83 +15,117 @@
 </head>
 <body>
 	<div class="container">
+		<div class="nav">
+			<ul>
+				<li><a class="about-color" href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a class="contact-color" href="#contact">Contact</a></li>
+			</ul>
+		</div>
+
 		<div class="headline">
 			<header>
-				<h1>Riaz Bacchus</h1>
-				<h4>Web Developer | Technology Lover | Nature Enthusiast</h2>
+				<h1>RIAZ BACCHUS</h1>
+				<h4 class="big-font">Web Developer | Designer</h2>
 			</header>
 		</div>
-		<div class="about">
-			<h3>About</h3>
+
+		<div class="about top-pad">
+			<a name="about"></a>
+			<h3 class="about-color">About</h3>
 			<p> Hi. I'm Riaz. I'm a web developer and designer. For me, finding the right tool for the job is an important part of my building process which is why I love experimenting with new technologies. Whether it's building a responsive design or writing efficient database queries, I love finding ways to create the best user experience possible. </p>
 		</div>
+
 		<div class="work">
-			<h3>Work</h3>
+			<a name="projects"></a>
+			<h3>Projects</h3>
 			<div class="projects">
 				<article>
 					<div class="description">
-						<h4>Band It</h4>
+						<h4 class="project-title">Band It</h4>
 						<p>Search for music events in your area.</p>
+						<img src="./assets/band-it.png" alt="">
 						<p>Built with Ruby on Rails and Postgresql.</p>
-						<a href="https://quiet-ridge-3116.herokuapp.com/">Demo</a>
-						<a href="https://github.com/Yoreee/Band-It">View the code</a>
+						<div class="link-bar">
+							<a href="https://quiet-ridge-3116.herokuapp.com/">Demo</a>
+							<span>|</span>
+							<a href="https://github.com/Yoreee/Band-It">View the code</a>
+							
+						</div>
 					</div>
 				</article>
 
 				<article>
 					<div class="description">
-						<h4>Code Blog</h4>
+						<h4 class="project-title">Code Blog</h4>
 						<p>Create blog posts about your coding experiences, problems, and solutions.</p>
 						<p>Built with Ruby on Rails, Postgres, and Backbone.</p>
-						<a href="https://sheltered-tor-2624.herokuapp.com/">Demo</a>
-						<a href="https://github.com/Yoreee/codeblog">View the code</a>
+						<div class="link-bar">
+							<a href="https://sheltered-tor-2624.herokuapp.com/">Demo</a>
+							<span>|</span>
+							<a href="https://github.com/Yoreee/codeblog">View the code</a>
+							
+						</div>
 
 					</div>
 				</article>
 				<article>
 					<div class="description">
-						<h4>Word Up!</h4>
+						<h4 class="project-title">Word Up!</h4>
 						<p>Look up words in the dictionary and save them.</p>
+						<img src="./assets/word-up.png" alt="">
 						<p>Built with the MongoDB, Express, Angular, and Node.</p>
-						<a href="http://104.131.6.177:3000/">Demo</a>
-						<a href="https://github.com/Yoreee/dictionary">View the code</a>
+						<div class="link-bar">
+							<a href="http://104.131.6.177:3000/">Demo</a>
+							<span>|</span>
+							<a href="https://github.com/Yoreee/dictionary">View the code</a>
+						</div>
 					</div>
 				</article>
 				<article>
 					<div class="description">
-						<h4>CSS Blogroll</h4>
+						<h4 class="project-title">CSS Blogroll</h4>
 						<p>Save articles and blog posts.</p>
+						<img src="./assets/css-blog.png" alt="">
 						<p>Built with Node, Express, and SQLite3.</p>
-						<a href="http://159.203.93.213:3000/">Demo</a>
-						<a href="https://github.com/Yoreee/css_blogroll">View the code</a>
+						<div class="link-bar link-pad">
+							<a class="link-pad" href="http://159.203.93.213:3000/">Demo</a>
+							<span>|</span>
+							<a class="link-pad" href="https://github.com/Yoreee/css_blogroll">View the code</a>
+							
+						</div>
 					</div>
 				</article>
 			</div>
+		</div>
 
-			<div class="tech">
-				<h3>Tech</h3>
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Javascript</li>
-					<li>Responsive design</li>
-					<li>SQL</li>
-					<li>Ruby</li>
-					<li>Ruby on Rails</li>
-					<li>Node</li>
-					<li>Express</li>
-					<li>MongoDB</li>
-					<li>Angular</li>
-					<li>Backbone</li>
-					<li>React</li>
-				</ul>
-			</div>
+		<div class="tech">
+			<h3>Tech & Skills</h3>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Javascript</li>
+				<li>jQuery</li>
+				<li>Responsive design</li>
+				<li>Ruby</li>
+				<li>Ruby on Rails</li>
+				<li>SQL</li>
+				<li>Node</li>
+				<li>Express</li>
+				<li>MongoDB</li>
+				<li>Angular</li>
+				<li>Backbone</li>
+				<li>React</li>
+				<li>Python</li>
+			</ul>
+		</div>
 
-			<div class="contact">
-				<div class="links">
-					<a href="https://github.com/yoreee" class="github">Github</a>
-					<a href="www.linkedin.com/yoreee">LinkedIn</a>
-				</div>
+		<div class="contact">
+			<a name="contact"></a>
+			<div class="links">
+				<a href="https://github.com/yoreee" class="github">Github</a>
+				<span class="contact-color">|</span>
+				<a href="www.linkedin.com/yoreee" class="linkedin">LinkedIn</a>
 			</div>
 		</div>
 	</div>
