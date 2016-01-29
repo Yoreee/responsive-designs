@@ -9,9 +9,6 @@ body {
 	font-weight: 200;
 }
 
-.headline {
-}
-
 .nav {
 	background-color: rgb(164, 218, 210);
 	height: 50px;
@@ -45,11 +42,16 @@ a:hover {
 	body {
 		background-color: white;
 	}
+
+	.background-image {
+		display: none;
+	}
 	
 	.nav > ul > li {
 		display: inline-block;
 		color: white;
-		padding: 15px 25px 0 20px;
+		padding: 15px 15px 0 15px;
+		font-size: 18px;
 		font-weight: 700;
 		letter-spacing: .2em;
 	}
@@ -65,17 +67,19 @@ a:hover {
 	}
 
 	.about > p {
-		font-size: 1.3em;
+		font-size: 1.4em;
 		text-align: justify;
-		line-height: 1.4em;
+		line-height: 1.7em;
 		vertical-align: top;
 		padding: 0 30px 0 30px;
+		text-indent: 50px;
 	}
 
 	.about {
 		padding: 100px 0 100px 0;
 	}
-	
+
+
 	.contact {
 		font-size: 3em;
 		margin: 100px 0 50px 0;
@@ -131,9 +135,9 @@ a:hover {
 	}
 
 	.headline {
-		width: 80%;
+		width: 89%;
 		margin: 0 auto;
-		padding: 180px 0 140px 0;
+		padding: 180px 0px 140px 0px;
 		color: white;
 		overflow: visible;
 	}
@@ -187,8 +191,10 @@ a:hover {
 	.nav > ul > li {
 		display: inline-block;
 		color: white;
-		padding: 15px 55px 0 50px;
-		font-weight: 700;
+		padding: 10px 45px 0 45px;
+		font-family: 'Open Sans', sans-serif;
+		font-size: 20px;
+		font-weight: 600;
 		letter-spacing: .2em;
 	}
 	.background-image {
@@ -211,13 +217,13 @@ a:hover {
 		width: 100%;
 		/*height: 100%;*/
 		/*min-height: 28.5rem;*/
-		top: -260px;
+		top: -200px;
 		/*left: -50%;
 		/*overflow: auto;*/
 	}
 
 	.headline {
-		width: 100%;
+		width: 80%;
 		margin: 0 auto;
 		padding: 10% 0 20% 0;
 		color: white;
@@ -227,7 +233,7 @@ a:hover {
 	}
 
 	.headline > header > h1 {
-		font-size: 80px;
+		font-size: 100px;
 		font-weight: 200;
 	}
 	
@@ -235,41 +241,49 @@ a:hover {
 
 	header {
 		background-color: rgba(0, 0, 0, 0.5);
-		padding: 20px 15px 10px 15px;
+		padding: 4% 15px 7% 15px;
 		height: auto;
 	}
 
 	.description > h4 {
 		text-align: center;
+		font-size: 33px;
 		/*padding-left: 30px;*/
 	}
 
 	.description > p {
 		text-align: center;
+		font-size: 1.2em;
 		padding: 0 10px 0 30px;
 	}
 
 	.description > img {
 		width: 50%;
+		max-width: 500px;
 	}
 
 	.about > p {
-		font-size: 1.3em;
+		font-size: 1.7em;
 		text-align: justify;
-		line-height: 1.4em;
+		line-height: 1.8em;
 		vertical-align: top;
 		padding: 0 30px 0 30px;
-		width: 70%;
+		width: 60%;
 		margin: 0 auto;
+		text-indent: 50px;
 	}
 
 	.about {
-		padding: 100px 0 100px 0;
+		padding: 100px 0 150px 0;
 		z-index: 100;
 		background: white;
 
 	}
-
+	
+	.about > h3 {
+		padding: 0 0 50px 0;
+	}
+	
 	
 	.contact {
 		font-size: 3em;
@@ -293,9 +307,10 @@ a:hover {
 		padding: 0;
 	}
 	.tech > ul {
-		font-size: 1.5em;
+		font-size: 2em;
 		margin: 0;
-		padding: 0 0 100px 0;
+		list-style: none;
+		padding: 100px 0 100px 0;
 	}
 	.work {
 		padding: 50px 0 100px 0;
@@ -311,24 +326,17 @@ a:hover {
 		position: relative;
 	}
 
-	ul {
-		list-style: none;
-		padding-left: 0;
-	}
-
 	h3 {
 		font-size: 3em;
-		font-family: 'Marvel', sans-serif;
-
-		text-decoration: underline;
+		font-family: 'Open Sans', sans-serif;
 	}
 
 	h1 {
-		font-size: 2.3em;
+		/*font-size: 2.3em;*/
 	}
 
 	.big-font {
-		font-size: 1.5em;
+		font-size: 2.0em;
 		font-weight: 200;
 	}
 
