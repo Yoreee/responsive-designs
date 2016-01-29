@@ -6,7 +6,9 @@
 	<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Marvel' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Work+Sans:300,100,200,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Bowlby+One' rel='stylesheet' type='text/css'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="/path/to/parallax.js"></script>
+
 <!-- 	<link rel="stylesheet" media="(max-width: 640px)" href="./styles/max-640px.css">
 	<link rel="stylesheet" media="(max-width: 640px)" href="./styles/min-640px.css"> -->
 	<link rel="stylesheet" href="./styles/style.css">
@@ -14,21 +16,34 @@
 	<title>Riaz Bacchus Portfolio</title>
 </head>
 <body>
-	<div class="container">
-		<div class="nav">
-			<ul>
-				<li><a class="about-color" href="#about">About</a></li>
-				<li><a href="#projects">Projects</a></li>
-				<li><a class="contact-color" href="#contact">Contact</a></li>
-			</ul>
-		</div>
 
+	<div class="nav">
+		<ul>
+			<li><a class="about-color" href="#about">About</a></li>
+			<li><a href="#projects">Projects</a></li>
+			<li><a class="contact-color" href="#contact">Contact</a></li>
+		</ul>
+	</div>
+
+
+	<div class="background-image">
+
+			<img class="image" src="./assets/tree.png">
+
+	</div>
+
+
+
+
+	<div class="container">
 		<div class="headline">
 			<header>
 				<h1>RIAZ BACCHUS</h1>
 				<h4 class="big-font">Web Developer | Designer</h2>
 			</header>
 		</div>
+
+
 
 		<div class="about top-pad">
 			<a name="about"></a>
@@ -57,8 +72,9 @@
 
 				<article>
 					<div class="description">
-						<h4 class="project-title">Code Blog</h4>
-						<p>Create blog posts about your coding experiences, problems, and solutions.</p>
+						<h4 class="project-title">To-Do List</h4>
+						<p>A simple to-do list application.</p>
+						<img src="./assets/to-do.png" alt="">
 						<p>Built with Ruby on Rails, Postgres, and Backbone.</p>
 						<div class="link-bar">
 							<a href="https://sheltered-tor-2624.herokuapp.com/">Demo</a>
